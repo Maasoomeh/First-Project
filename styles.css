@@ -1,0 +1,312 @@
+h1,
+h2 {
+  font-family: Arial;
+  display: block;
+  font-style: center;
+  margin-top: 20px;
+  color: white;
+}
+
+h1 {
+  font-weight: bolder;
+}
+
+h2 {
+  font-size: large;
+}
+
+.code {
+  font-family: Arial;
+  display: absolute;
+  text-decoration-line: none;
+  text-align: center;
+  margin-top: 40px;
+  margin-left: 537px;
+  color: white;
+}
+
+a {
+  text-decoration-line: none;
+  color: #ffac00;
+}
+
+.allText {
+  display: block;
+  margin: 30px auto;
+  padding: 20px;
+  box-shadow: 0px 0px 5px rgb(225, 223, 223);
+  background: #f6fbfc;
+  border-radius: 10px;
+  width: 1200px;
+  height: 600px;
+}
+
+.row {
+  margin-top: 130px;
+  margin-left: -100px;
+  margin-right: -100px;
+}
+
+.day {
+  margin-top: 35px;
+  text-align: center;
+}
+
+.d {
+  margin-left: -16px;
+}
+
+.rectangle {
+  height: 4px;
+  width: 600px;
+  border-radius: 50px;
+  background-color: #f8f9fa;
+  margin-left: 281px;
+  margin-top: 60px;
+}
+
+.rectangle2 {
+  height: 4px;
+  width: 120px;
+  transform: rotate(90deg);
+  border-radius: 50px;
+  background-color: #f8f9fa;
+  margin-left: 45px;
+  margin-top: -80px;
+}
+
+/*hr {
+  height: 6px;
+  width: 1px;
+  transform: rotate(90deg);
+  border-radius: 50px;
+  background-color: #f8f9fa;
+  margin-left: 281px;
+  margin-top: 60px;
+}*/
+
+.col {
+  font-family: Arial;
+  color: white;
+  display: inline;
+  padding-bottom: 10%;
+  padding-right: 10px;
+  top: 10%;
+  left: 20%;
+}
+
+.col-2 {
+  margin: 18px;
+  /*box-shadow: 0px 0px 5px rgb(225, 223, 223);
+  background: #bed8df;
+  border-radius: 100px;*/
+  position: relative;
+  left: 20%;
+  right: 20%;
+  bottom: 30px;
+  height: 200px;
+  width: 100px;
+}
+
+.card-body {
+  margin-bottom: 27px;
+}
+
+.cardText {
+  padding: 0;
+  font-family: Arial;
+  color: white;
+  margin-top: -15px;
+}
+
+body {
+  background-color: #a1a7a8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100vh;
+  width: 100vw;
+}
+
+.info {
+  font-family: Arial;
+  color: white;
+  position: absolute;
+  z-index: 4;
+  margin-top: -53px;
+  margin-left: 580px;
+}
+
+.info0 {
+  font-family: Arial;
+  color: white;
+  position: absolute;
+  z-index: 4;
+  margin-top: 0px;
+  margin-left: 445px;
+}
+
+.location {
+  text-align: center;
+  font-weight: 800;
+  margin-top: -90px;
+}
+
+.days {
+  font-family: Arial;
+  color: white;
+}
+
+.temp {
+  font-family: Arial;
+  font-size: 60px;
+  color: white;
+  margin-top: 10%;
+  text-align: center;
+}
+
+.temp0 {
+  font-family: Arial;
+  font-size: 30px;
+  color: white;
+  margin-top: 10%;
+  margin-left: 10px;
+  text-align: center;
+}
+
+h5 {
+  font-family: Arial;
+  color: white;
+}
+
+.sun0 {
+  background: -webkit-linear-gradient(rgb(255, 217, 0), rgb(255, 153, 0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 50px;
+  margin-top: 35px;
+  margin-left: 471px;
+}
+
+.sun1 {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 470px;
+  top: 116px;
+}
+
+.sun {
+  background: -webkit-linear-gradient(rgb(255, 217, 0), rgb(255, 153, 0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: xx-large;
+  margin-top: 14px;
+}
+
+.row {
+  margin-top: 60px;
+}
+
+.field {
+  border: 0;
+  padding: 10px 20px;
+  background: white;
+  border-radius: 3px;
+  box-shadow: 0px 8px 15px rgba(75, 72, 72, 0.1);
+  transition: all 0.4s ease;
+  position: absolute;
+  width: 260px;
+  height: 40px;
+  left: 300px;
+  top: 255px;
+}
+
+.bib,
+.boob {
+  box-shadow: 0px 34px 101px rgba(9, 0, 63, 0.38);
+}
+
+.bib {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(218, 182, 84, 0.5),
+      rgba(90, 127, 161, 0.5)
+    ),
+    url("https://www.wallpapertip.com/wmimgs/23-238938_beautiful-blue-sky.jpg");
+  position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+input {
+  width: 100%;
+  height: 42px;
+  padding-left: 10px;
+  border: 2px solid rgba(85, 78, 97, 0.959);
+  border-radius: 15px;
+  outline: none;
+  background: #fff;
+  color: rgba(85, 78, 97, 0.959);
+}
+
+.search {
+  display: inline;
+  width: 200px;
+  top: 30%;
+}
+
+button {
+  display: inline;
+  /*width: 60px;
+  height: 40px;*/
+  left: 300px;
+  top: 30%;
+}
+
+.mb-1 {
+  margin-bottom: 4rem !important;
+  --bs-btn-color: #fff;
+}
+
+.bi {
+  font-size: 18px;
+  color: white;
+  margin-left: 280px;
+}
+
+.drop {
+  font-size: 18px;
+  color: white;
+  margin-top: -23px;
+  margin-left: 300px;
+}
+
+.bi2 {
+  font-size: 18px;
+  color: white;
+  margin-left: 560px;
+  margin-top: -52px;
+}
+
+.wind {
+  font-size: 18px;
+  color: white;
+  margin-top: -51px;
+  margin-left: 580px;
+}
+
+.bi3 {
+  font-size: 18px;
+  color: white;
+  margin-left: 823px;
+  margin-top: -52px;
+}
+
+.cloud {
+  font-size: 18px;
+  color: white;
+  margin-top: -51px;
+  margin-left: 843px;
+}
